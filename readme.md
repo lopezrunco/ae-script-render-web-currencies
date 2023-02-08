@@ -1,8 +1,14 @@
-## Scrap currencies and render
+# Scrap currencies and render
 
 Scrap the web of Banco Central del Uruguay, set the currency info in an After Effects comp and render.
 
-### Instructions
+## Used libraries:
+
+Axios: Promise-based HTTP client for the browser and node.js
+
+Cheerio: Parses markup and provides an API for traversing/manipulating the resulting data structure
+
+## Instructions
 
 1. Clone the repo
    ```sh
@@ -15,5 +21,7 @@ Scrap the web of Banco Central del Uruguay, set the currency info in an After Ef
 3. Run scraper
    ```sh
    node scraper.js
+   # All data will be stored in data.json file
    ```
-All data will be stored in data.json file
+
+4. Go to the After Effects template and run the script render.js

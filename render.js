@@ -14,6 +14,8 @@ function setInfoAndRender(file) {
         setContentInLayer(data[i].title, titleLayers[i])
         setContentInLayer(data[i].price, priceLayers[i])
     }
+    app.project.renderQueue.items.add(app.project.item(1))
+    app.project.renderQueue.render()
 }
 
 function setContentInLayer(content, layer) {
@@ -28,4 +30,3 @@ function setContentInLayer(content, layer) {
 }
 
 setInfoAndRender(File(JSONFile))
-
