@@ -14,6 +14,6 @@ Scrap the web of Banco Central del Uruguay, set the currency info in an After Ef
    ```
 3. Run scraper
    ```sh
-   node script.js
+   node scraper.js
    ```
 All data will be stored in data.json file

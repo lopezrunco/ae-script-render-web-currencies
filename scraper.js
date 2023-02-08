@@ -3,10 +3,10 @@ const cheerio = require('cheerio')  // Parses markup and provides an API for tra
 const fs = require('fs')            // File System module
 
 const url = "https://www.bcu.gub.uy/Paginas/Default.aspx"
-const itemsIDs = [2225, 2230, 1111, 501, 1001, 9800]
+const itemsIDs = [2225, 2230, 1111, 501, 1001]
 let list = []
 
-async function scrape() {
+async function scraper() {
     console.log(`Scraping ${url}...`)
     try {
         // Fetch & load html
@@ -33,10 +33,10 @@ async function scrape() {
                 console.error(error)
                 return
             }
-            console.log('Done!')
+            console.log('Scraped!')
         })
     } catch (error) {
         console.log(error)
     }
 }
-scrape()
+scraper()
