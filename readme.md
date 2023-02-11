@@ -1,6 +1,8 @@
-# Scrap currencies and render
+# Render currencies
 
 Scrap the web of Banco Central del Uruguay, set the currency info in an After Effects comp and render.
+
+<img src='./screenshot.jpg' />
 
 ## Used libraries:
 
@@ -24,4 +26,4 @@ Cheerio: Parses markup and provides an API for traversing/manipulating the resul
    # All data will be stored in data.json file
    ```
 
-4. Go to the After Effects template and run the script render.js
+4. Go to the After Effects project and run the script render.js
