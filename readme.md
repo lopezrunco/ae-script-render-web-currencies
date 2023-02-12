@@ -27,3 +27,9 @@ Cheerio: Parses markup and provides an API for traversing/manipulating the resul
    ```
 
 4. Go to the After Effects project and run the script render.js
+
+## Tested in:
+
+```sh
+# After Effects 2022
+```
